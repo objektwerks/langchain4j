@@ -4,7 +4,7 @@ LangChain4j
 
 Note
 ----
->Classic Java implementation with builders and ***unfriendly*** annotations.
+>LangChain4j is a classic Java implementation with builders and ***unfriendly*** annotations.
 
 OpenAI
 ------
