@@ -12,7 +12,6 @@ import java.time.Duration
     .builder()
     .apiKey(apiKey)
     .modelName(modelName)
-    .temperature(0.3)
     .timeout(Duration.ofSeconds(30))
     .logRequests(true)
     .logResponses(true)
