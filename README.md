@@ -6,6 +6,10 @@ Build
 -----
 1. sbt clean compile
 
+Run
+---
+1. sbt clean compile run
+
 Resources
 ---------
 * [LangChain4j](https://docs.langchain4j.dev/intro)
