@@ -16,5 +16,5 @@ import dev.langchain4j.model.openai.OpenAiChatModel
 
   val response = model.chat(request)
   println(s"*** OpenAI model: $modelName.")
-  println(s"Request: $request")
-  println(s"Response: $response")
+  println(s"*** Request: $request")
+  println(s"*** Response: $response")
