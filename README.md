@@ -2,8 +2,6 @@ LangChain4j
 -----------
 >LangChain4j app using OpenAI and Scala 3.
 
-Note
-----
 >LangChain4j is a classic Java implementation with builders and ***unfriendly*** annotations.
 
 OpenAI
