@@ -12,7 +12,7 @@ import java.time.Duration
     .builder()
     .apiKey(apiKey)
     .modelName(modelName)
-    .timeout(Duration.ofSeconds(30))
+    .timeout(Duration.ofSeconds(10))
     .logRequests(true)
     .logResponses(true)
     .build()
