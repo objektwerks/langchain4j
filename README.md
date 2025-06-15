@@ -4,7 +4,7 @@ LangChain4j
 
 Note
 ----
->Classic Java implementation with builders and unfriendly annotations.
+>Classic Java implementation with builders and ***unfriendly*** annotations.
 
 Build
 -----
