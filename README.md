@@ -1,6 +1,6 @@
 LLM
 ---
->LangChain4j feature apps using Scala 3.
+>LangChain4j feature apps using OpenAI and Scala 3.
 
 Build
 -----
