@@ -6,7 +6,8 @@ import dev.langchain4j.model.openai.OpenAiChatModel
   val apiKey = sys.env("OPENAI_API_KEY")
   val modelName = "gpt-4o-mini"
 
-  val model = OpenAiChatModel.builder()
+  val model = OpenAiChatModel
+    .builder()
     .apiKey(apiKey)
     .modelName(modelName)
     .build()
