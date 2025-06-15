@@ -1,5 +1,5 @@
-LLM
----
+LangChain4j
+-----------
 >LangChain4j feature apps using OpenAI and Scala 3.
 
 Note
