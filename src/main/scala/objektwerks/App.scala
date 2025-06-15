@@ -17,7 +17,7 @@ import java.time.Duration
     .logResponses(true)
     .build()
 
-  val request = "Say 'Hello World'"
+  val request = "Say 'Hello, OpenAi'"
   val response = model.chat(request)
 
   println(s"*** OpenAI Model: $modelName")
