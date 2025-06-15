@@ -4,7 +4,7 @@ import dev.langchain4j.model.openai.OpenAiChatModel
 
 import java.time.Duration
 
-@main def runChatModelApp(): Unit =
+@main def runApp(): Unit =
   val apiKey = sys.env("OPENAI_API_KEY")
   val modelName = "gpt-4o-mini"
 
