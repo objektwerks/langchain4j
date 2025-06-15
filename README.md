@@ -8,4 +8,4 @@ Build
 
 Resources
 ---------
-* [LangChain4j]()
+* [LangChain4j](https://docs.langchain4j.dev/intro)
