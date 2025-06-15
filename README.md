@@ -2,6 +2,10 @@ LLM
 ---
 >LangChain4j feature apps using OpenAI and Scala 3.
 
+Note
+----
+>Classic Java implementation with builders and annotations.
+
 Build
 -----
 1. sbt clean compile
