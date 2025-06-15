@@ -1,6 +1,6 @@
 LangChain4j
 -----------
->LangChain4j feature app using OpenAI and Scala 3.
+>LangChain4j app using OpenAI and Scala 3.
 
 Note
 ----
