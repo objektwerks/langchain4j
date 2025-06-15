@@ -13,4 +13,4 @@ import dev.langchain4j.model.openai.OpenAiChatModel
     .build()
 
   val answer = model.chat("Say 'Hello World'")
-  println(answer)
+  println(s"Using OpenAI model, $modelName, to yield: $answer")
