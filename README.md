@@ -6,6 +6,10 @@ Note
 ----
 >Classic Java implementation with builders and ***unfriendly*** annotations.
 
+OpenAI
+------
+>Obtain OpenAI API key from openai.com. Then set environment key: ```OPENAI_API_KEY="key"```
+
 Build
 -----
 1. sbt clean compile
