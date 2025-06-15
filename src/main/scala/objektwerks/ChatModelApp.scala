@@ -8,7 +8,7 @@ import java.time.Duration
   val apiKey = sys.env("OPENAI_API_KEY")
   val modelName = "gpt-4o-mini"
 
-  val model = OpenAiChatModel
+  val chatModel = OpenAiChatModel
     .builder()
     .apiKey(apiKey)
     .modelName(modelName)
@@ -18,8 +18,8 @@ import java.time.Duration
     .build()
 
   val request = "Say 'Hello, OpenAi'"
-  val response = model.chat(request)
+  val response = chatModel.chat(request)
 
-  println(s"*** OpenAI Model: $modelName")
+  println(s"*** OpenAI Chat Model: $modelName")
   println(s"*** Request: $request")
   println(s"*** Response: $response")
