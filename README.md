@@ -8,7 +8,9 @@ Note
 
 OpenAI
 ------
->Obtain an OpenAI API key from [OpenAI](https://openai.com/api/). Then set environment key: ```OPENAI_API_KEY="value"```
+>Obtain an OpenAI API key from [OpenAI](https://openai.com/api/).
+
+>Then create an environment variable: ```export OPENAI_API_KEY="key-value"```
 
 Build
 -----
