@@ -12,14 +12,14 @@ OpenAI
 
 Build
 -----
-1. sbt clean compile
+1. ```sbt clean compile```
 
 Run
 ---
-1. sbt run
+1. ```sbt run```
 >or:
-1. sbt "run Pilsner"
->Must use a single word beer style.
+1. ```sbt "run Pilsner"```
+>Must use a single word beer style, such as: ```sbt "run PaleAle"```
 
 Resources
 ---------
