@@ -16,11 +16,13 @@ import java.time.Duration
     .logRequests(true)
     .logResponses(true)
     .build()
+  println(s"*** OpenAI Chat Model: $modelName")
 
   val topic = if args.nonEmpty then args(0) else "Indian Pale Ale"
-  val request = s"Tell me about this beer style, $topic"
-  val response = chatModel.chat(request)
+  println(s"*** Topic: $topic")
 
-  println(s"*** OpenAI Chat Model: $modelName")
+  val request = s"Tell me about this beer style, $topic"
   println(s"*** Request: $request")
+
+  val response = chatModel.chat(request)
   println(s"*** Response: $response")
