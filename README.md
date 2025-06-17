@@ -16,7 +16,9 @@ Build
 
 Run
 ---
-1. sbt clean compile run
+1. sbt run
+>or:
+1. sbt "run Pilsner"
 
 Resources
 ---------
