@@ -19,6 +19,7 @@ Run
 1. sbt run
 >or:
 1. sbt "run Pilsner"
+>Must use a single word beer style.
 
 Resources
 ---------
