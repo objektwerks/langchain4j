@@ -19,7 +19,7 @@ Run
 1. ```sbt run```
 >or:
 1. ```sbt "run Pilsner"```
->Must use a single word beer style, such as: ```sbt "run PaleAle"```
+>For now, **must** use a single word beer style, such as: ```sbt "run PaleAle"```
 
 Resources
 ---------
