@@ -4,7 +4,7 @@ import dev.langchain4j.model.openai.OpenAiChatModel
 
 import java.time.Duration
 
-@main def runApp(): Unit =
+@main def runApp(args: String*): Unit =
   val apiKey = sys.env("OPENAI_API_KEY")
   val modelName = "gpt-4o-mini"
 
@@ -12,12 +12,12 @@ import java.time.Duration
     .builder()
     .apiKey(apiKey)
     .modelName(modelName)
-    .timeout(Duration.ofSeconds(10))
+    .timeout(Duration.ofSeconds(30))
     .logRequests(true)
     .logResponses(true)
     .build()
 
-  val topic = "Indian Pale Ale"
+  val topic = if args.nonEmpty then args(0) else "Indian Pale Ale"
   val request = s"Tell me about this beer style, $topic"
   val response = chatModel.chat(request)
 
