@@ -1,7 +1,7 @@
 name := "langchain4j"
 organization := "objektwerks"
 version := "5.0.0"
-scalaVersion := "3.8.0-RC4"
+scalaVersion := "3.8.0-RC5"
 libraryDependencies ++= {
   val langchain4jVersion = "1.10.0"
   Seq(
