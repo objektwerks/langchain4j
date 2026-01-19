@@ -7,7 +7,7 @@ libraryDependencies ++= {
   Seq(
     "dev.langchain4j" % "langchain4j" % langchain4jVersion,
     "dev.langchain4j" % "langchain4j-open-ai" % langchain4jVersion,
-    "ch.qos.logback" % "logback-classic" % "1.5.23"
+    "ch.qos.logback" % "logback-classic" % "1.5.24"
   )
 }
 scalacOptions ++= Seq(
